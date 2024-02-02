@@ -18,6 +18,8 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="empty_string">""</string>
+
     <!-- For backward compatibility.
          @see com.android.inputmethod.latin.settings.SettingsValues#needsToShowVoiceInputKey(android.content.SharedPreferences,android.content.res.Resources) -->
     <string name="voice_mode_main">0</string>

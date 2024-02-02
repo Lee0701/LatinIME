@@ -285,8 +285,7 @@ static inline void showStackTrace() {
 #define DISALLOW_COPY_CONSTRUCTOR(TypeName) \
   TypeName(const TypeName&) = delete
 
-#define DISALLOW_ASSIGNMENT_OPERATOR(TypeName) \
-  void operator=(const TypeName&) = delete
+#define DISALLOW_ASSIGNMENT_OPERATOR(TypeName)
 
 #define DISALLOW_COPY_AND_ASSIGN(TypeName) \
   DISALLOW_COPY_CONSTRUCTOR(TypeName);     \
