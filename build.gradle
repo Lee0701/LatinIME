@@ -4,7 +4,7 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.6.0'
+        classpath 'com.android.tools.build:gradle:8.9.0'
     }
 }
 
@@ -12,7 +12,7 @@ apply plugin: 'com.android.application'
 
 android {
     namespace 'com.android.inputmethod.latin'
-    compileSdk 34
+    compileSdk 35
 
     // Required if using classes in android.test.runner
     useLibrary 'android.test.runner'
@@ -25,7 +25,7 @@ android {
 
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 34
+        targetSdkVersion 35
         versionName "1.0"
 
         applicationId 'com.android.inputmethod.latin'
@@ -105,5 +105,5 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.6.2'
     androidTestImplementation 'androidx.test:rules:1.6.1'
     androidTestImplementation 'androidx.test.uiautomator:uiautomator:2.3.0'
-    implementation 'androidx.annotation:annotation:1.8.2'
+    implementation 'androidx.annotation:annotation:1.9.1'
 }
