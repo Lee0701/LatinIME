@@ -87,13 +87,6 @@ android {
     }
 }
 
-repositories {
-    maven { url "../../../prebuilts/fullsdk-darwin/extras/android/m2repository" }
-    maven { url "../../../prebuilts/fullsdk-linux/extras/android/m2repository" }
-    mavenCentral()
-    google()
-}
-
 dependencies {
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'com.google.code.findbugs:jsr305:3.0.2'
