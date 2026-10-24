@@ -78,7 +78,7 @@ android {
             path 'native/jni/Android.mk'
         }
     }
-    ndkVersion '26.1.10909125'
+    ndkVersion '29.0.14206865'
     androidResources {
         noCompress = 'dict'
     }
