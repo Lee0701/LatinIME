@@ -8,7 +8,7 @@ buildscript {
     }
 }
 
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     namespace 'com.android.inputmethod.latin'
@@ -28,8 +28,6 @@ android {
         targetSdkVersion 37
         versionName "1.0"
 
-        applicationId 'com.android.inputmethod.latin'
-        testApplicationId 'com.android.inputmethod.latin.tests'
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = false
 
